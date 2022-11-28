@@ -1,0 +1,75 @@
+/*
+
+    selector {
+
+        property: value;
+        property: value;
+        property: value;
+        etc....
+
+    }
+
+    Writing selectors::
+
+    tagname ->nseclects all names if a given type
+    .classname -> selects all members of a given class
+    tagname.classname -> selects only tags that are also memberw of a given class
+
+    > -> child symbol]
+
+    tagname>tagname
+    tagname> .classname 
+    .classname>.classname
+    .classname>tagname
+
+
+
+*/
+
+
+
+.nav { 
+    
+    list-style: none;
+
+    
+
+    padding-left: 0;
+
+    width: 50%;
+
+    margin: auto;
+
+    text-align: center;
+}
+
+.nav>li {
+    
+    border-style: solid;
+    border-radius: 10px;
+    display: inline-block;
+    background-color: blanchedalmond;
+
+}
+.nav>li>a { 
+    text-decoration: none;
+    color: rgb(7, 6, 5);
+
+}
+
+img {
+    display: block;
+    width: 30%;
+    height: auto;
+    margin: auto;
+    border-radius: 10px;
+}
+
+body {
+    background-image: url(
+
+    );
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
